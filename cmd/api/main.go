@@ -17,7 +17,4 @@ func main() {
 	fmt.Println("\n Starting New GO API service...")
 
 	err := http.ListenAndServe("localhost:8080", r)
-	if err != nil {
-		log.Error(err)
-	}
 }
